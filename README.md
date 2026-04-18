@@ -1,11 +1,22 @@
-# Scapy-Port-Scanner-UDP-TCP-SCAN
-# Me:
-   Name: Anir
-   <br/>
-   Age: 17y
-   <br/>
-   From: MA
+Scapy Port Scanner
 
-Project :
-  Its My First Project In Network And Scapy 
-  Its A simple Port Scanner UDP AND TCP SCAN AND very Simple OS Detection I know My Code Is Not Perfect But I do My Best 🙏
+A basic network scanner built with Scapy that supports:
+
+- TCP SYN scanning
+- UDP port scanning
+- Basic OS fingerprinting using TTL, TCP window size, and MSS
+
+This project was built to practice:
+
+- Packet crafting with Scapy
+- TCP/UDP response analysis
+- ICMP interpretation
+- Basic OS detection techniques
+
+The scanner identifies whether a port is:
+
+- Open
+- Closed
+- Filtered
+
+It also performs simple OS fingerprinting based on TCP response characteristics.
